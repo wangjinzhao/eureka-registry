@@ -1,0 +1,10 @@
+spring:
+    application:
+        name: eureka-registry
+#    profiles:
+#        active: peer2
+    security:
+        user:
+            name: admin
+            password: admin
+            role: USER,ADMIN
